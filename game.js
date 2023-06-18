@@ -1,3 +1,4 @@
+//Create the grid
 function makeGrid(length) {
     for (let i = 0; i < length; i++) {
         let row = document.createElement("div");
@@ -18,6 +19,7 @@ function makeGrid(length) {
     }
 }
 
+//takes value from text input
 let genBtn = document.getElementById("gridGen");
 genBtn.onclick = function() {
     let size = parseInt(document.getElementById("sizeInput").value);
